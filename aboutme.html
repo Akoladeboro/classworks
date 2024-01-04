@@ -6,6 +6,7 @@
     <meta name="author" content="Borogun Akolade">
     <meta name="description" content="This page contains all about me.">
     <title>About me</title>
+    <link rel="stylesheet" href="/style.css">
 
 </head>
 
@@ -15,7 +16,8 @@
         I'm BOROGUN AKOLADE
     </h1>
 
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Registered Dental Hygenist. I'm a very cool and friendly guy, fun to be
+    <p class="myself">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Registered Dental Hygenist. I'm a very cool and friendly
+        guy, fun to be
         with. The only boy
         and the third born from a family of four children.lways ready to work and learn. I also make leather footwears
         of all kinds and desing, I would also love to promote my brand internationally. My brand name is ACOLADE FITS.
@@ -25,25 +27,26 @@
         AXIA AFRICA. I wish to be a frontend developer and not that alone but also be able to tutor and mentor the
         little promising minds out there who also have dreams in the tech world.
     </p>
-    <figure>
-        <div class="picture1">
+    <figure class="pictures">
+        <div>
             <img src="/imagehere/resized.jpg" alt="My picture" title="My humble self in a white native wear">
-            <figcaption>Borogun Akolade Abdulganiy</figcaption>
         </div>
+        <figcaption class="caption">Borogun Akolade Abdulganiy</figcaption>
     </figure>
-    <hr>
-    <figure>
-        <img src="/imagehere/slide.jpg" alt="A birkenstock slide" title="Black birkenstock slide">
-        <figcaption>A birkenstock slide from my brand </figcaption>
+    <figure class="pictures">
+        <div>
+            <img src="/imagehere/slide.jpg" alt="A birkenstock slide" title="Black birkenstock slide">
+        </div>
+        <figcaption class="caption">A birkenstock slide from my brand </figcaption>
     </figure>
-    <hr>
+
     <article id="Contact">
         <h2>
-            <p>I'd really like to hear from you.</p>
+            I'd really like to hear from you.
         </h2>
         <form action="https://httpbin.org/get" method="get">
-            <fieldset>
-                <legend>Personal Info</legend>
+            <fieldset class="personal">
+                <legend class="Personal">Personal Info</legend>
                 <p>
                     <label for="FirstName">First Name:</label>
                     <input type="text" name="FirstName" id="FirstName" placeholder="Dayo" autofocus autocomplete="on"
@@ -83,8 +86,8 @@
                     <input type="number" name="decade" id="decade" min="1930" max="2022" step="5" value="1970">
                 </p>
             </fieldset>
-            <fieldset>
-                <legend>What is your favorite food</legend>
+            <fieldset class="favorite">
+                <legend class="Favorite">What is your favorite food</legend>
                 <p>
                     <input type="radio" name="food" id="Rice" value="Rice">
                     <label for="Rice">Rice</label>
@@ -102,8 +105,8 @@
                     <label for="Other">Other</label>
                 </p>
             </fieldset>
-            <fieldset>
-                <legend>Do you have pets</legend>
+            <fieldset class="pets">
+                <legend class="Pets">Do you have pets</legend>
                 <p>
                     <input type="checkbox" name="pets" id="Dog" value="Dog">
                     <label for="Dog">Dog</label>
@@ -121,23 +124,23 @@
                     <label for="OtherPet">Other Pet</label>
                 </p>
             </fieldset>
-            <fieldset>
-                <legend>Send me a note</legend>
+            <fieldset class="note">
+                <legend class="Note">Send me a note</legend>
                 <p>
-                    <label for="Message">Your Message</label>
+                    <label class="message" for="Message">Your Message</label>
                     <br>
-                    <textarea name="Message" id="Message" cols="30" rows="10"
+                    <textarea class="reply" name="Message" id="Message" cols="30" rows="10"
                         placeholder="type your message here"></textarea>
                 </p>
             </fieldset>
             <br>
-            <button type="submit">Submit</button>
-            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
-            <button type="reset">Reset</button>
+            <button class="submit" type="submit">Submit</button>
+            <button class="post" type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button class="reset" type="reset">Reset</button>
         </form>
     </article>
     <hr>
-    <ul>
+    <ul class="links">
         <li> Contact me at <a href="mailto:akoladeborogun@gmail.com">my email</a></li>
         <li>Dial <a href="tel:+2348022384369">my phone number</a></li>
     </ul>
