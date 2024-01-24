@@ -10,7 +10,10 @@ html {
 
 h1 {
     font-size: 40px;
-    background-color: rgb(195, 94, 40);
+    text-align: center;
+    text-decoration: aqua;
+    background-color: rgb(195, 94, 40)
+    
 }
 
 .myself {
@@ -23,6 +26,8 @@ h1 {
 
 h2 {
     font-size: 25px;
+    text-align: center;
+    text-decoration: aqua;
     background-color: rgb(227, 159, 75);
 }
 
